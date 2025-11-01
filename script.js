@@ -2,7 +2,7 @@
 const chatForm = document.getElementById("chatForm");
 const userInput = document.getElementById("userInput");
 const responseContainer = document.getElementById("chatWindow");
-
+const cloudflareWorkerURL = "https://loreal-worker.esdrasmora.workers.dev/";
 // Set initial message
 chatWindow.textContent = "👋 Hello! How can I help you today?";
 
